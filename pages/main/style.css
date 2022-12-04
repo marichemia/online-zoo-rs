@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header {
     width: 100%;
     height: 80px;
@@ -156,11 +162,12 @@ nav {
     border: none;
 }
 
+/* section two*/
+
 .section-2 {
     width: 1161px;
     height: 403px;
     position: relative;
-    left: calc(50% - 580.5px);
     margin-top: 140px;
 
     display: flex;
@@ -215,6 +222,138 @@ nav {
 .section-2-flower {
     position: absolute;
     right: 0;
+    top: 800px;
+}
+
+/* section three */
+.section-3 {
+    width: 1322px;
+    height: 872px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+}
+
+.arrow {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F9804B;
+    position: relative;
+    top: 90px;
+}
+
+.arrow img {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.section-3-grid {
+    width: 1158px;
+    height: 872px;
+    margin-top: 179px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 105px;
+}
+
+.grid-row {
+    width: 1158px;
+    height: 426px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    border: solid 1px #F9804B;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.card-img {
+    width: 366px;
+    height: 366px;
+}
+
+.card-txt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 22px 21px 17px;
+}
+
+.card-txt {
+    width: 194px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-txt a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.card-txt p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+    width: 200px;
+}
+
+.choose-fav {
+    width: 298px;
+    height: 54px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FE9013;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Roboto Regular', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.5px;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 100px;
+}
+
+.palm-img {
+    position: absolute;
+    left: 0;
+    top: 2000px;
+    z-index: -1;
+}
+
+.strelitzia-img {
+    position: absolute;
+    right: 0;
+    top: 2190px;
+    z-index: -1;
 }
 
 .none {
