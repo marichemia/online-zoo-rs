@@ -406,4 +406,120 @@
     }
 }
 
-@media (max-width: 995px) {}
+@media (max-width: 995px) {
+    .section-4 {
+        width: 640px;
+        height: 781px;
+        padding: 0px 0px 0px 0px;
+        margin-top: 20px;
+    }
+
+    .section-4-content {
+        width: 640px;
+        height: 741px;
+    }
+
+    .section-4-txt-container {
+        width: 600px;
+    }
+
+    .section-4-txt-container h3 {
+        width: 600px;
+        height: 52px;
+    }
+
+    .section-4-txt-container h4 {
+        width: 600px;
+        height: 42px;
+    }
+
+    .section-4-txt-container p {
+        width: 600px;
+        height: 42px;
+    }
+
+    .section-4-img-container {
+        width: 588px;
+    }
+
+    .how-it-works {
+        width: 588px;
+        height: 244px;
+    }
+
+    .arrow-img {
+        display: none;
+    }
+
+    header {
+        width: 640px;
+    }
+}
+
+@media (max-width: 635px) {
+
+
+    .section-4-txt-container h4,
+    .section-4-txt-container p {
+        display: none;
+    }
+
+    .section-4-txt-container {
+        width: 297px;
+        height: 96px;
+    }
+
+    .section-4-txt-container h3 {
+        width: 297px;
+        height: 66px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .section-4-img-container {
+        width: 175px;
+        height: 225px;
+        margin-top: 0px;
+    }
+
+    .how-it-works {
+        flex-direction: column;
+        width: 175px;
+        height: 715px;
+    }
+
+    .section-4-img-container h2 {
+        width: 139px;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .section-4-content {
+        width: 300px;
+        height: 1042px;
+        padding: 0px 0px 0px 0px;
+        justify-content: initial;
+    }
+
+    .section-4 {
+        width: 320px;
+        height: 1082px;
+        margin: -130px 0px 0px 0px;
+    }
+
+    .section-4-txt-container h2 {
+        font-size: 24px;
+        text-align: center;
+        width: 232px;
+        height: 44px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-4-content button {
+        position: relative;
+        top: 620px;
+    }
+}
