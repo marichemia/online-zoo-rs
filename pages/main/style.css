@@ -521,6 +521,338 @@ nav {
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+
+.section-5 {
+    width: 1160px;
+    height: 607px;
+    margin-top: 143px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 177px;
+}
+
+.section-5 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #333B41;
+    align-self: center;
+
+}
+
+.testimonials {
+    width: 1160px;
+    height: 391px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 268px;
+    height: 391px;
+    border: double 3px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#F1F3F2, #F1F3F2), linear-gradient(290deg, #FEBDAB, #F3A9F8, #E0D8F0, #EAF7FE, #EAF7FE);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.scroll-bar {
+    width: 599px;
+    height: 8px;
+    align-self: center;
+    background-color: #333B41;
+}
+
+.section-5 button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+.user-info {
+    width: 191px;
+    height: 38px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+.user-id {
+    width: 144px;
+    height: 38px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.location-time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+    width: 170px;
+
+}
+
+.user-review {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+
+    margin: 10px 15px 19px 16px;
+}
+
+footer {
+    width: 100%;
+    padding: 40px 220px 50px 220px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-column {
+    width: 399px;
+    height: 351px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-column {
+    width: 394px;
+    height: 351px;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.subscribe-column {
+    width: 366px;
+    height: 351px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content {
+    width: 1160px;
+    height: 351px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.donate-btn button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.icon-container {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: rgba(196, 196, 196, 0.5);
+    position: relative;
+}
+
+.media-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 12px;
+    position: relative;
+    top: 3px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube {
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.fa-facebook-f {
+    top: 20%;
+    left: 30%;
+}
+
+.fa-twitter {
+    top: 20%;
+    left: 25%;
+}
+
+.fa-instagram {
+    top: 19%;
+    left: 25%;
+}
+
+.fa-youtube {
+    top: 20%;
+    left: 17%;
+}
+
+.footer-nav {
+    width: 362px;
+    height: 22px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.active {
+    color: #F9804B !important;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 83px;
+}
+
+.subscribe h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+}
+
+.subscribe input {
+    width: 228px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #F9804B;
+}
+
+.subscribe button {
+    width: 129px;
+    height: 42px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+
+    margin-left: 10px;
+}
+
+.email-input-submit {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.copyright p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
 
 }
 

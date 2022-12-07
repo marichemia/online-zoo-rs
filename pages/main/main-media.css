@@ -523,3 +523,163 @@
         top: 620px;
     }
 }
+
+@media (max-width: 320px) {
+    header {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1163px) {
+    .last {
+        display: none;
+    }
+
+    .testimonials {
+        width: 940px;
+        height: 468px;
+        align-self: center;
+    }
+
+    .section-5 {
+        width: 940px;
+    }
+
+    .scroll-bar {
+        margin-bottom: 44px;
+    }
+}
+
+@media (max-width: 968px) {
+    .section-5 {
+        width: 600px;
+        height: 528px;
+    }
+
+    .testimonials {
+        width: 600px;
+        height: 361px;
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 600px;
+        height: 109px;
+        overflow-y: hidden;
+    }
+
+    .section-5 button {
+        width: 240px;
+        height: 54px;
+        align-self: center;
+    }
+
+    .scroll-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 604px) {
+    .section-5 {
+        width: 300px;
+        height: 496px;
+    }
+
+    .testimonials {
+        width: 300px;
+    }
+
+    .testimonial {
+        width: 299px;
+        height: 109px;
+    }
+}
+
+@media (max-width: 1170px) {
+
+    footer {
+        padding: 40px 31px 50px 30px;
+    }
+
+    .footer-content {
+        width: 940px;
+        height: 351px;
+        position: relative;
+    }
+
+    .social-column {
+        width: 292px;
+        height: 100%;
+    }
+
+    .nav-column {
+        width: 332px;
+        height: 100%;
+    }
+
+    .subscribe-column {
+        width: 332px;
+        height: 100%;
+    }
+
+    .subscribe {
+        position: relative;
+        left: -30px;
+    }
+
+}
+
+@media (max-width: 984px) {
+    footer {
+        padding: 13px 20px 12px 20px;
+    }
+
+    .footer-content {
+        width: 606px;
+        height: 257px;
+    }
+
+    .subscribe {
+        display: none;
+    }
+
+    .media-name {
+        display: none;
+    }
+
+    .icon-container {
+        position: relative;
+        left: 190%;
+    }
+
+    .donate-btn {
+        position: relative;
+        top: 20px;
+    }
+
+    .footer-nav {
+        position: relative;
+        left: -290px;
+        width: 300px;
+    }
+
+    .subscribe-column {
+        display: none;
+    }
+
+    .copyright p {
+        position: relative;
+        right: 150px;
+        width: 240px;
+    }
+}
+
+@media (max-width: 605px) {
+    footer {
+        height: 334px;
+    }
+
+    .footer-content {
+        display: none;
+    }
+}
